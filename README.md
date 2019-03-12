@@ -3,7 +3,7 @@
 ![Burger Nom Home](/gitHubImg/burgerNom.png)
 
 - - -
-This sequelized [Burger Nom](https://desolate-garden-11224.herokuapp.com/) app is Live! :hamburger:
+This sequelized [Burger Nom](https://sleepy-caverns-67493.herokuapp.com/) app is Live! :hamburger:
 - - -
 
 ### Similar to the Original Burger Nom
