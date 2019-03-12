@@ -1,0 +1,106 @@
+{{!-- <div class="everything-container"> --}}
+
+  {{!-- <div id="enter-container">
+    <div class="enter-text">
+      <button class="waves-effect waves-light btn" id="clickMe">Welcome to Burger Nom</button>
+    </div>
+    <div class="enter-img">
+    </div>
+  </div> --}}
+
+  <div id="index-container" class="container center-align">
+
+    <div class="row title-row">
+      <section class="title-text center-align">
+        <h3>Burger Nom</h3>
+      </section>
+    </div>
+
+
+    <div class="row burger-row">
+      <section class="col s12 m6" id="burgers-to-nom">
+
+        <h3>Burgers to Nom</h3>
+
+        {{!-- {{#each Burger}}
+        {{#unless devoured}}
+
+        {{> Burger/burger-block devoured=true}}
+
+        {{/unless}}
+        {{/each}} --}}
+
+      {{#each Burger}}
+      {{#unless devoured}}
+
+        <li>
+          {{id}}. {{name}}
+
+            <button class="change-devoured waves-effect waves-light btn" data-id="{{id}}" data-newdevoured="{{devoured}}">
+              DEVOUR ME
+            </button>
+
+        </li>
+      {{/unless}}
+      {{/each}}
+
+      </section>
+
+      <section class="col s12 m6" id="burgers-no-more">
+        
+        <h3>Burgers no More</h3>
+
+        {{!-- {{#each Burger}}
+        {{#if devoured}}
+
+        {{> Burger/burger-block devoured=false}}
+
+        {{/if}}
+        {{/each}} --}}
+
+        {{#each Burger}}
+        {{#if devoured}}
+
+        <li>
+          {{id}}. {{name}}
+            {{!-- <button class="change-devoured waves-effect waves-light btn" data-id="{{id}}" data-newdevoured="{{devoured}}">
+              DEVOUR ME
+            </button> --}}
+
+        </li>
+
+      {{/if}}
+      {{/each}}
+    
+      </section>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="row form-row">
+
+      <section class="col s12">
+
+        <h4>Add a Burger</h4>
+
+        <form id="createburger">
+          
+          <div class="row">
+            <div class="input-field col s6 offset-s3">
+            <input id="burg" type="text" name="burger" />
+            </div>
+          </div>
+
+          <div class="row">
+            <button class="btn waves-effect waves-light" id="addburgbtn" type="submit">Add Burger!</button>
+          </div>
+
+        </form>
+
+      </section>
+
+  </div>
+
+  </div>
+
+{{!-- </div> --}}

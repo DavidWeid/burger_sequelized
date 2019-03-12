@@ -1,0 +1,27 @@
+{
+  "name": "burger_sequelized",
+  "version": "1.0.0",
+  "description": "Like Burger, but sequelized",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidWeid/burger_sequelized.git"
+  },
+  "author": "David Weid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidWeid/burger_sequelized/issues"
+  },
+  "homepage": "https://github.com/DavidWeid/burger_sequelized#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mysql2": "^1.6.5",
+    "sequelize": "^4.43.0"
+  }
+}
