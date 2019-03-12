@@ -1,3 +1,7 @@
-# burger_sequelized
-Like Burger, but sequelized
-This sequelized Burger app is [live](url:https://sleepy-caverns-67493.herokuapp.com/)
+# Burger Nom Sequelized
+
+![Burger Nom Home](/gitHubImg/burgerNom.png)
+
+- - -
+This sequelized [Burger Nom](https://desolate-garden-11224.herokuapp.com/) app is Live! :hamburger:
+- - -
